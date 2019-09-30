@@ -1,6 +1,6 @@
 #Gazorpazorp Station
 
-##USER sotries
+##USER stories
 
 - as a user i can create passengers
 - as a user i can list all expeditions
