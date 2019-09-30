@@ -17,11 +17,13 @@ ship_2 = Spaceship('Marvel', 'Dissapointos', 'GPO1345')
 ship_3 = Spaceship('Sparrow', 'Black Pearl', 'BP56070')
 
     # generate 3 expeditions
+expo1 = Expedition('Mars', 'Black Pearl')
+expo2 = Expedition('Death star', 'Dissapointos')
+expo3 = Expedition('Final Destination', 'RPS')
         # keep lists of generated expedition (empty list of expedition)
         # assign a spacecraft to each one
             # should be able to assign on creation of object or
             # should be able to assign post-facto
-
 
 
     # Assign each expedition 2 passengers (append)
