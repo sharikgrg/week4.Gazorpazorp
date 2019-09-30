@@ -1,6 +1,7 @@
 # import all classes here
 from passenger_class import *
 from spaceship_class import *
+from expedition_class import *
 
 # create objects here
     # generate 6 passengers
