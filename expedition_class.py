@@ -28,6 +28,24 @@ class Expedition:
             return True
         else:
             return False
+
+    def get_spaceship(self):
+        return self.__spaceship
+
+    def get_origin(self):
+        return self.__origin
+
+    def get_destination(self):
+        return self.__destination
+
+    def get_pass_list(self):
+        return self.__list_of_passengers
+
+    def print_list_passengers(self):
+        for passenger in self.get_pass_list():
+            print('Name: ' + passenger.name, 'species: ' + passenger.species, 'IDR: ' + passenger.intergalactic_dna_reg)
+
+
 # an origin (probably always gazorpazorp spacestation)
 # should have a destination
 # spaceship assigned to it

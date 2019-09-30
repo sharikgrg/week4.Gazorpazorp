@@ -48,9 +48,13 @@ expo3.add_pass_to_expo(passenger6)
 # print(expo1.expo_details()['pass_list'][0].species)
 
 # iterate over list of expeditions and print
-for list in expedition_list:
-    for key in list.expo_details():
-        print(key, ': ', list.expo_details()[key])
+for expedition in expedition_list: # getting expedition object
+    print(expedition.get_origin(), expedition.get_destination(), expedition.get_spaceship().identify_by_name())
+expedition.print_list_passengers()
+# use expo_details as a dictionary
+# for list in expedition_list:
+#     for key in list.expo_details():
+#         print(key, ': ', list.expo_details()[key])
 
 # iterate over list of expeditions and print
 # # iterare over list of passenger objects
@@ -59,7 +63,8 @@ for list in expedition_list:
 
 # create while loop here
     # Use input to get user input and generate object dynamically
-# - as a user i can create passengers
-# - as a user i can list all expeditions
-# - as a user i can add a passenger to a expedition
-# - as a user i can list passengers in one expedition
+# - as a user i can create passengers (done)
+# - as a user i can list all expeditions (not done)
+# - as a user i can add a passenger to a expedition (done)
+# - as a user i can list passengers in one expedition (not done)
+
